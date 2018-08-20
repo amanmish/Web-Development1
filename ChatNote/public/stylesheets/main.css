@@ -1,0 +1,106 @@
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+    width: 100%;
+    
+    
+}
+.wrapper {
+    position: relative;
+    height: 100vh;
+}
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+body
+{
+     background-color:#454140;
+}
+.container
+{
+    
+}
+
+img
+{
+    width: 100%;
+    
+    
+}
+.header
+{
+    text-align: center;
+    
+}
+.material
+{
+    text-align: center;
+    background-color: #6b5b95;
+    margin-top: 0px;
+    overflow-x: hidden;
+}
+
+
+.col-md-4
+{
+   background-color: cyan;
+   margin: 0.1%;
+}
+.col-md-3
+{
+   background-color: cyan;
+   margin: 3%;
+   
+}
+.square_img
+{
+    padding-top: 20px;
+    width: 100%;
+}
+.bottom
+{
+    
+}
+
+#footer_
+{
+    text-align: center;
+}
+#footer_ a
+{
+    color: white;
+}
+.signup
+{
+    color: #6b5b95;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: none;
+   
+    padding:0;
+}
