@@ -1,0 +1,41 @@
+<% include ../partials/header %>
+<body style="background-color: #b3b3ff">
+<div class="container">
+    <div class="col-md-3"></div>
+    <div class="row col-md-9">
+        
+        
+        <div style="margin-top:80px; padding: 0;">
+            
+            <div class="thumbnail">
+                <img class="img-responsive" src="<%= campground.image %>">
+                <div class="caption-full">
+                    
+                    <h4><a><%=campground.name%></a></h4>
+                    <p><%= campground.description %></p>
+                </div>
+            </div>
+            
+            
+            <div class="well" style="margin-left:120px; margin-right:120 px; margin-left:0">
+                <div class="text-right">
+                    <a class="btn btn-success" href="/campgrounds/<%= campground._id %>/comments/new">Add New Comment</a>
+                </div>
+                <hr>
+                <% campground.comments.forEach(function(comment){ %>
+                    <div class="row">
+                        <div>
+                            <strong><%= comment.author %></strong>
+                            
+                            <p>
+                                <%= comment.text %> 
+                            </p>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<% include ../partials/footer %>
